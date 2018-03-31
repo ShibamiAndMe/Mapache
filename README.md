@@ -185,6 +185,8 @@ To change the color of the Mapache theme select one of the theme styles below an
 <link rel="stylesheet" href="/assets/styles/theme-teal.css"/>
 <!-- Theme Green -->
 <link rel="stylesheet" href="/assets/styles/theme-green.css"/>
+<!-- Theme Black -->
+<link rel="stylesheet" href="/assets/styles/theme-black.css"/>
 
 <!-- For theme white add two-color logo 230px * 130px -->
 
