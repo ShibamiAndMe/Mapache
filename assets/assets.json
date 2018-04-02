@@ -26,5 +26,7 @@
   "styles/theme-teal.css": "styles/theme-teal.css",
   "scripts/theme-teal.js": "scripts/theme-teal.js",
   "styles/theme-white.css": "styles/theme-white.css",
-  "scripts/theme-white.js": "scripts/theme-white.js"
+  "scripts/theme-white.js": "scripts/theme-white.js",
+  "styles/theme-black.css": "styles/theme-black.css",
+  "scripts/theme-black.js": "scripts/theme-black.js"
 }

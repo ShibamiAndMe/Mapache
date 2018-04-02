@@ -27,6 +27,15 @@
             </div>
         </form>
 
+		{{#is "post"}}
+		<div class="select-style">
+			<select id="header-language-selection" onchange="window.document.location.href=this.value">
+				<option value="http://amalgama.shibamiandme.com/{{post.slug}}" selected>{{t "English"}}</option>
+				<option value="http://amalgama.shibamiandme.es/{{post.slug}}">{{t "Spanish"}}</option>
+			</select>
+		</div>
+		{{/is}}
+
         {{!-- Header follow section --}}
         <aside class="header-follow u-flex u-h-b-lg social_box">
             {{#if @blog.facebook}} <a title="Facebook {{@blog.facebook}}" href="{{facebook_url}}" target="_blank" class="i-facebook"></a>{{/if}}
