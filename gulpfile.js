@@ -12,6 +12,7 @@ const zipFiles = {
 		'!./*.editorconfig',
 		'!./*.gitignore',
 		'!./README.md',
+		'!./VERSIONS.md',
 		'!./gulpfile.js',
 		'!./package-lock.json',
 		'!./node_modules',
