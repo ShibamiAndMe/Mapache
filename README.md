@@ -11,7 +11,7 @@ Mapache supports the following web [browsers](http://caniuse.com/#search=flexbox
 
 ## Featured
 
-- Multilanguage selection. []()
+- Multilanguage selection. It is needed to review section `Multilanguage selection` to install this theme.
 - Support for different [languages](http://themes.ghost.org/docs/i18n#section-how-to-add-any-language) (en - es)
 - Responsive layout
 - Blog navigation
