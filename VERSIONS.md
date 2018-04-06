@@ -1,5 +1,10 @@
 # Mapache theme
 
+## v1.3.0
+
+* Added new blog title style.
+* Added nuew amalgama.css file.
+
 ## v1.2.0
 
 * Added language selection in tag page.

@@ -13,7 +13,9 @@
 
     <div class="cover-wrap u-flex-aling-center">
         {{!-- Blog name --}}
-        <h1 id="title-home" class="cover-title animated bounceInDown">{{@blog.title}}</h1>
+        <h1 id="title-home" class="cover-title animated bounceInDown">
+			<span class="amalgama-blog-title">{{@blog.title}}</span>
+		</h1>
         <div id="home-typed" class="cover-title animated bounceInDown u-hide"><span id="home-title-typed"></span></div>
         {{!-- Blog description --}}
         <p class="cover-description animated bounceIn">{{@blog.description}}</p>
