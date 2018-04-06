@@ -1,8 +1,9 @@
 # Mapache theme
 
-## v1.1.1
+## v1.2.0
 
 * Added language selection in tag page.
+* Created language-selection page template.
 
 ## v1.1.0
 
