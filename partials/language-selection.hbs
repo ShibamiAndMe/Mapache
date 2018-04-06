@@ -1,0 +1,37 @@
+{{#is "post, tag"}}
+	{{#equal (lang) "es"}}
+		{{#if post}}
+			<div class="select-style">
+				<select id="header-language-selection" onchange="window.document.location.href=this.value">
+					<option value="http://amalgama.shibamiandme.com/{{post.slug}}">{{t "English"}}</option>
+					<option value="http://amalgama.shibamiandme.es/{{post.slug}}" selected>{{t "Spanish"}}</option>
+				</select>
+			</div>
+		{{/if}}
+		{{#if tag}}
+			<div class="select-style">
+				<select id="header-language-selection" onchange="window.document.location.href=this.value">
+					<option value="http://amalgama.shibamiandme.com{{url}}">{{t "English"}}</option>
+					<option value="http://amalgama.shibamiandme.es{{url}}" selected>{{t "Spanish"}}</option>
+				</select>
+			</div>
+		{{/if}}
+	{{else}}
+		{{#if post}}
+			<div class="select-style">
+				<select id="header-language-selection" onchange="window.document.location.href=this.value">
+					<option value="http://amalgama.shibamiandme.com/{{post.slug}}" selected>{{t "English"}}</option>
+					<option value="http://amalgama.shibamiandme.es/{{post.slug}}">{{t "Spanish"}}</option>
+				</select>
+			</div>
+		{{/if}}
+		{{#if tag}}
+			<div class="select-style">
+				<select id="header-language-selection" onchange="window.document.location.href=this.value">
+					<option value="http://amalgama.shibamiandme.com{{url}}" selected>{{t "English"}}</option>
+					<option value="http://amalgama.shibamiandme.es{{url}}">{{t "Spanish"}}</option>
+				</select>
+			</div>
+		{{/if}}
+	{{/equal}}
+{{/is}}

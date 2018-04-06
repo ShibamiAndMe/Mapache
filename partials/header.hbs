@@ -27,23 +27,7 @@
             </div>
         </form>
 
-		{{#is "post, tag"}}
-			{{#equal (lang) "es"}}
-				<div class="select-style">
-					<select id="header-language-selection" onchange="window.document.location.href=this.value">
-						<option value="http://amalgama.shibamiandme.com/{{post.slug}}">{{t "English"}}</option>
-						<option value="http://amalgama.shibamiandme.es/{{post.slug}}" selected>{{t "Spanish"}}</option>
-					</select>
-				</div>
-			{{else}}
-				<div class="select-style">
-					<select id="header-language-selection" onchange="window.document.location.href=this.value">
-						<option value="http://amalgama.shibamiandme.com/{{post.slug}}" selected>{{t "English"}}</option>
-						<option value="http://amalgama.shibamiandme.es/{{post.slug}}">{{t "Spanish"}}</option>
-					</select>
-				</div>
-			{{/equal}}
-		{{/is}}
+		{{> "language-selection" }}
 
         {{!-- Header follow section --}}
         <aside class="header-follow u-flex u-h-b-lg social_box">
