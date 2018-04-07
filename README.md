@@ -36,6 +36,7 @@ Mapache supports the following web [browsers](http://caniuse.com/#search=flexbox
 - YouTube Subscribe Button => Video Post Format
 - Facebook widget in sidebar
 - Twitter widget in sidebar
+- Instagram widget in sidebar
 - Code syntax [Prismjs](http://prismjs.com/index.html) Supported all syntax.
 
 ## Ghost settings

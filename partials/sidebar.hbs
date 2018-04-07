@@ -7,15 +7,8 @@
         {{/get}}
     {{/is}}
 
-    {{!-- 5 articles recents in page (post) --}}
-    {{#is "post, tag, author, paged" }}
-        {{#get "posts" limit="5" as |recents| }}
-            {{> "sidebar-post" widgetTitle=(t "Latest Posts") widgetPosts=recents }}
-        {{/get}}
-    {{/is}}
-
-    {{!-- Tag Cloud --}}
-    {{> "sidebar-tag-cloud" }}
+	{{!-- Instagram --}}
+    {{> "instagram-widget" }}
 
     {{!-- Twitter --}}
     <div class="sidebar-items u-hide u-card-shadow">
@@ -28,4 +21,15 @@
         <h3 class="sidebar-title">Facebook</h3>
         <div class="widget-facebook"></div>
     </div>
+
+	{{!-- 5 articles recents in page (post) --}}
+    {{#is "post, tag, author, paged" }}
+        {{#get "posts" limit="5" as |recents| }}
+            {{> "sidebar-post" widgetTitle=(t "Latest Posts") widgetPosts=recents }}
+        {{/get}}
+    {{/is}}
+
+	{{!-- Tag Cloud --}}
+    {{> "sidebar-tag-cloud" }}
+
 </div>
