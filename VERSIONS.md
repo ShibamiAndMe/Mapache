@@ -1,9 +1,14 @@
 # Mapache theme
 
+## v1.4.0
+
+* Added instagram widget in sidebar.
+* Modified blog-title style to add new amalgama-blog-title font.
+
 ## v1.3.0
 
 * Added new blog title style.
-* Added nuew amalgama.css file.
+* Added new amalgama.css file.
 
 ## v1.2.0
 

@@ -6,13 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
         <title>Page not found - {{meta_title}}</title>
 
+		{{!-- Google Fonts --}}
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
-        <link rel="stylesheet" type="text/css" href="{{asset "styles/main.css"}}" />
+		<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+
+		{{!-- Styles'n'Scripts --}}
+		<link rel="stylesheet" type="text/css" href="{{asset "styles/main.css"}}" />
+		<link rel="stylesheet" type="text/css" href="{{asset "styles/amalgama.css"}}" />
     </head>
     <body>
         <div class="errorPage">
             <div class="errorPage-title">
-                <a class="errorPage-link" href="{{@blog.url}}">{{@blog.title}}</a>
+                <a class="errorPage-link" href="{{@blog.url}}">
+					<span class="amalgama-blog-title">{{@blog.title}}</span>
+				</a>
             </div>
             <div class="errorPage-wrap">
                 <div id="emoji" class="errorPage-emoji">(>_<)</div>
