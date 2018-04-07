@@ -1,5 +1,9 @@
 # Mapache theme
 
+## v1.4.1
+
+* Fixed instagram-widget helper name.
+
 ## v1.4.0
 
 * Added instagram widget in sidebar.
